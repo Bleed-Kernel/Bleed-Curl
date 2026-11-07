@@ -4,7 +4,7 @@
 #define CURL_OS "x86_64-pc-bleed"
 
 #define USE_MBEDTLS 1
-#define CURL_CA_BUNDLE "/initrd/etc/ssl/cacert.pem"
+#define CURL_CA_BUNDLE "/etc/ssl/cacert.pem"
 #define CURL_DEFAULT_SSL_BACKEND "mbedtls"
 
 #define CURL_DISABLE_LDAP 1
